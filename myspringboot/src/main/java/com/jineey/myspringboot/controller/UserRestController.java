@@ -20,7 +20,7 @@ import com.jineey.myspringboot.entity.Users;
 import com.jineey.myspringboot.exception.ResourceNotFoundException;
 import com.jineey.myspringboot.repository.UserRepository;
 
-@CrossOrigin(origins = "http://localhost:3000")
+//@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 public class UserRestController {
 	@Autowired

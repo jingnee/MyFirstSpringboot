@@ -9272,3 +9272,182 @@ Verify the connector's configuration, identify and stop any process that's liste
 2020-04-28 00:47:26.173  INFO 7880 --- [restartedMain] c.j.m.r.MyRunner                         : Program Arguments true
 2020-04-28 00:47:26.173  INFO 7880 --- [restartedMain] c.j.m.r.MyRunner                         : VM Arguments false
 2020-04-28 00:47:26.180  INFO 7880 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-28 00:48:16.241  INFO 7880 --- [RMI TCP Connection(13)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-04-28 00:48:16.244  INFO 7880 --- [RMI TCP Connection(13)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-28 00:48:16.245  INFO 7880 --- [RMI TCP Connection(13)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-28 00:48:16.245  INFO 7880 --- [RMI TCP Connection(13)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-2 - Shutdown initiated...
+2020-04-28 00:48:16.253  INFO 7880 --- [RMI TCP Connection(13)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-2 - Shutdown completed.
+2020-04-28 10:18:32.158  INFO 2524 --- [restartedMain] c.j.m.MyspringbootApplication            : Starting MyspringbootApplication on DESKTOP-MQ4HA7U with PID 2524 (C:\java\myspringboot\target\classes started by jiyun in C:\java\myspringboot)
+2020-04-28 10:18:32.167 DEBUG 2524 --- [restartedMain] c.j.m.MyspringbootApplication            : Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.12.RELEASE
+2020-04-28 10:18:32.167  INFO 2524 --- [restartedMain] c.j.m.MyspringbootApplication            : The following profiles are active: test
+2020-04-28 10:18:32.209  INFO 2524 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-28 10:18:32.209  INFO 2524 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-28 10:18:33.338  INFO 2524 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-28 10:18:33.415  INFO 2524 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66ms. Found 2 JPA repository interfaces.
+2020-04-28 10:18:33.815  INFO 2524 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ba060434] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-28 10:18:34.158  INFO 2524 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8085 (http)
+2020-04-28 10:18:34.181  INFO 2524 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-04-28 10:18:34.182  INFO 2524 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-28 10:18:34.281  INFO 2524 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-04-28 10:18:34.281  INFO 2524 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2072 ms
+2020-04-28 10:18:34.890  INFO 2524 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2020-04-28 10:18:34.977  INFO 2524 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2020-04-28 10:18:35.046  INFO 2524 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-04-28 10:18:35.131  INFO 2524 --- [restartedMain] o.h.Version                              : HHH000412: Hibernate Core {5.3.15.Final}
+2020-04-28 10:18:35.133  INFO 2524 --- [restartedMain] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2020-04-28 10:18:35.293  INFO 2524 --- [restartedMain] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-04-28 10:18:35.523  INFO 2524 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-28 10:18:36.454  INFO 2524 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-28 10:18:36.496  INFO 2524 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-28 10:18:37.174  INFO 2524 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-28 10:18:37.218  WARN 2524 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-28 10:18:37.272  INFO 2524 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-04-28 10:18:37.677  INFO 2524 --- [restartedMain] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-28 10:18:37.775  INFO 2524 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8085 (http) with context path ''
+2020-04-28 10:18:37.777  INFO 2524 --- [restartedMain] c.j.m.MyspringbootApplication            : Started MyspringbootApplication in 6.222 seconds (JVM running for 8.029)
+2020-04-28 10:18:37.788 DEBUG 2524 --- [restartedMain] c.j.m.r.MyRunner                         : >> Hello Bean : 테스트환경 에서 사용되는 hello Bean
+2020-04-28 10:18:37.788 DEBUG 2524 --- [restartedMain] c.j.m.r.MyRunner                         : >> Property Name 스프링
+2020-04-28 10:18:37.788 DEBUG 2524 --- [restartedMain] c.j.m.r.MyRunner                         : >> Property Age 13
+2020-04-28 10:18:37.789 DEBUG 2524 --- [restartedMain] c.j.m.r.MyRunner                         : >> PropertyClass fullName 스프링 For Test
+2020-04-28 10:18:37.789  INFO 2524 --- [restartedMain] c.j.m.r.MyRunner                         : SourceArgs [spring.output.ansi.enabled, bar]
+2020-04-28 10:18:37.789  INFO 2524 --- [restartedMain] c.j.m.r.MyRunner                         : Program Arguments true
+2020-04-28 10:18:37.789  INFO 2524 --- [restartedMain] c.j.m.r.MyRunner                         : VM Arguments false
+2020-04-28 10:19:21.535  INFO 2524 --- [http-nio-8085-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-28 10:19:21.535  INFO 2524 --- [http-nio-8085-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-04-28 10:19:21.546  INFO 2524 --- [http-nio-8085-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 11 ms
+2020-04-28 10:25:01.852  INFO 2524 --- [Thread-6] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-28 10:25:01.854  INFO 2524 --- [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-28 10:25:01.858  INFO 2524 --- [Thread-6] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2020-04-28 10:25:01.870  INFO 2524 --- [Thread-6] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2020-04-28 10:25:02.467  INFO 2524 --- [restartedMain] c.j.m.MyspringbootApplication            : Starting MyspringbootApplication on DESKTOP-MQ4HA7U with PID 2524 (C:\java\myspringboot\target\classes started by jiyun in C:\java\myspringboot)
+2020-04-28 10:25:02.467 DEBUG 2524 --- [restartedMain] c.j.m.MyspringbootApplication            : Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.12.RELEASE
+2020-04-28 10:25:02.468  INFO 2524 --- [restartedMain] c.j.m.MyspringbootApplication            : The following profiles are active: test
+2020-04-28 10:25:02.850  INFO 2524 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-28 10:25:02.868  INFO 2524 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 2 JPA repository interfaces.
+2020-04-28 10:25:02.933  INFO 2524 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ba060434] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-28 10:25:03.051  INFO 2524 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8085 (http)
+2020-04-28 10:25:03.052  INFO 2524 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-04-28 10:25:03.052  INFO 2524 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-28 10:25:03.074  INFO 2524 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-04-28 10:25:03.074  INFO 2524 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 604 ms
+2020-04-28 10:25:03.258  INFO 2524 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-2 - Starting...
+2020-04-28 10:25:03.261  INFO 2524 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-2 - Start completed.
+2020-04-28 10:25:03.271  INFO 2524 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-04-28 10:25:03.289  INFO 2524 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-28 10:25:03.358  INFO 2524 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-28 10:25:03.386  INFO 2524 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-28 10:25:03.592  INFO 2524 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-28 10:25:03.602  WARN 2524 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-28 10:25:03.627  INFO 2524 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-04-28 10:25:03.774  INFO 2524 --- [restartedMain] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 16 endpoint(s) beneath base path '/actuator'
+2020-04-28 10:25:03.811  INFO 2524 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8085 (http) with context path ''
+2020-04-28 10:25:03.814  INFO 2524 --- [restartedMain] c.j.m.MyspringbootApplication            : Started MyspringbootApplication in 1.418 seconds (JVM running for 394.065)
+2020-04-28 10:25:03.820 DEBUG 2524 --- [restartedMain] c.j.m.r.MyRunner                         : >> Hello Bean : 테스트환경 에서 사용되는 hello Bean
+2020-04-28 10:25:03.820 DEBUG 2524 --- [restartedMain] c.j.m.r.MyRunner                         : >> Property Name 스프링
+2020-04-28 10:25:03.822 DEBUG 2524 --- [restartedMain] c.j.m.r.MyRunner                         : >> Property Age 12
+2020-04-28 10:25:03.822 DEBUG 2524 --- [restartedMain] c.j.m.r.MyRunner                         : >> PropertyClass fullName 스프링 For Test
+2020-04-28 10:25:03.823  INFO 2524 --- [restartedMain] c.j.m.r.MyRunner                         : SourceArgs [spring.output.ansi.enabled, bar]
+2020-04-28 10:25:03.824  INFO 2524 --- [restartedMain] c.j.m.r.MyRunner                         : Program Arguments true
+2020-04-28 10:25:03.824  INFO 2524 --- [restartedMain] c.j.m.r.MyRunner                         : VM Arguments false
+2020-04-28 10:25:03.830  INFO 2524 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-28 10:25:38.374  INFO 2524 --- [http-nio-8085-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-28 10:25:38.374  INFO 2524 --- [http-nio-8085-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-04-28 10:25:38.387  INFO 2524 --- [http-nio-8085-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 13 ms
+2020-04-28 10:37:55.168  INFO 2524 --- [Thread-15] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-28 10:37:55.170  INFO 2524 --- [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-28 10:37:55.171  INFO 2524 --- [Thread-15] c.z.h.HikariDataSource                   : HikariPool-2 - Shutdown initiated...
+2020-04-28 10:37:55.179  INFO 2524 --- [Thread-15] c.z.h.HikariDataSource                   : HikariPool-2 - Shutdown completed.
+2020-04-28 10:37:55.901  INFO 2524 --- [restartedMain] c.j.m.MyspringbootApplication            : Starting MyspringbootApplication on DESKTOP-MQ4HA7U with PID 2524 (C:\java\myspringboot\target\classes started by jiyun in C:\java\myspringboot)
+2020-04-28 10:37:55.901 DEBUG 2524 --- [restartedMain] c.j.m.MyspringbootApplication            : Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.12.RELEASE
+2020-04-28 10:37:55.901  INFO 2524 --- [restartedMain] c.j.m.MyspringbootApplication            : The following profiles are active: test
+2020-04-28 10:37:56.412  INFO 2524 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-28 10:37:56.427  INFO 2524 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 2 JPA repository interfaces.
+2020-04-28 10:37:56.505  INFO 2524 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ba060434] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-28 10:37:56.630  INFO 2524 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8085 (http)
+2020-04-28 10:37:56.633  INFO 2524 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-04-28 10:37:56.634  INFO 2524 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-28 10:37:56.651  INFO 2524 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-04-28 10:37:56.651  INFO 2524 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 747 ms
+2020-04-28 10:37:56.865  INFO 2524 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-3 - Starting...
+2020-04-28 10:37:56.868  INFO 2524 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-3 - Start completed.
+2020-04-28 10:37:56.876  INFO 2524 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-04-28 10:37:56.893  INFO 2524 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-28 10:37:56.960  INFO 2524 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-28 10:37:56.978  INFO 2524 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-28 10:37:57.142  INFO 2524 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-28 10:37:57.148  WARN 2524 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-28 10:37:57.164  INFO 2524 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-04-28 10:37:57.296  INFO 2524 --- [restartedMain] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 16 endpoint(s) beneath base path '/actuator'
+2020-04-28 10:37:57.327  INFO 2524 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8085 (http) with context path ''
+2020-04-28 10:37:57.328  INFO 2524 --- [restartedMain] c.j.m.MyspringbootApplication            : Started MyspringbootApplication in 1.519 seconds (JVM running for 1167.58)
+2020-04-28 10:37:57.335 DEBUG 2524 --- [restartedMain] c.j.m.r.MyRunner                         : >> Hello Bean : 테스트환경 에서 사용되는 hello Bean
+2020-04-28 10:37:57.336 DEBUG 2524 --- [restartedMain] c.j.m.r.MyRunner                         : >> Property Name 스프링
+2020-04-28 10:37:57.337 DEBUG 2524 --- [restartedMain] c.j.m.r.MyRunner                         : >> Property Age 22
+2020-04-28 10:37:57.337 DEBUG 2524 --- [restartedMain] c.j.m.r.MyRunner                         : >> PropertyClass fullName 스프링 For Test
+2020-04-28 10:37:57.337  INFO 2524 --- [restartedMain] c.j.m.r.MyRunner                         : SourceArgs [spring.output.ansi.enabled, bar]
+2020-04-28 10:37:57.338  INFO 2524 --- [restartedMain] c.j.m.r.MyRunner                         : Program Arguments true
+2020-04-28 10:37:57.338  INFO 2524 --- [restartedMain] c.j.m.r.MyRunner                         : VM Arguments false
+2020-04-28 10:37:57.344  INFO 2524 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-28 10:40:27.387  INFO 2524 --- [http-nio-8085-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-28 10:40:27.387  INFO 2524 --- [http-nio-8085-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-04-28 10:40:27.394  INFO 2524 --- [http-nio-8085-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 7 ms
+2020-04-28 10:43:13.540  INFO 2524 --- [RMI TCP Connection(45)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-04-28 10:43:13.543  INFO 2524 --- [RMI TCP Connection(45)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-28 10:43:13.543  INFO 2524 --- [RMI TCP Connection(45)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-28 10:43:13.545  INFO 2524 --- [RMI TCP Connection(45)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-3 - Shutdown initiated...
+2020-04-28 10:43:13.552  INFO 2524 --- [RMI TCP Connection(45)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-3 - Shutdown completed.
+2020-04-28 10:45:57.007  INFO 5720 --- [restartedMain] c.j.m.MyspringbootApplication            : Starting MyspringbootApplication on DESKTOP-MQ4HA7U with PID 5720 (C:\java\myspringboot\target\classes started by jiyun in C:\java\myspringboot)
+2020-04-28 10:45:57.014 DEBUG 5720 --- [restartedMain] c.j.m.MyspringbootApplication            : Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.12.RELEASE
+2020-04-28 10:45:57.015  INFO 5720 --- [restartedMain] c.j.m.MyspringbootApplication            : The following profiles are active: test
+2020-04-28 10:45:57.091  INFO 5720 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-28 10:45:57.091  INFO 5720 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-28 10:45:58.264  INFO 5720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-28 10:45:58.367  INFO 5720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 93ms. Found 2 JPA repository interfaces.
+2020-04-28 10:45:58.763  INFO 5720 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$23982e45] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-28 10:45:59.083  INFO 5720 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8085 (http)
+2020-04-28 10:45:59.103  INFO 5720 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-04-28 10:45:59.105  INFO 5720 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-28 10:45:59.319  INFO 5720 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-04-28 10:45:59.320  INFO 5720 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2229 ms
+2020-04-28 10:45:59.713  INFO 5720 --- [restartedMain] o.s.b.a.e.w.ServletEndpointRegistrar     : Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2020-04-28 10:45:59.809  INFO 5720 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2020-04-28 10:45:59.872  INFO 5720 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2020-04-28 10:45:59.943  INFO 5720 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-04-28 10:46:00.050  INFO 5720 --- [restartedMain] o.h.Version                              : HHH000412: Hibernate Core {5.3.15.Final}
+2020-04-28 10:46:00.052  INFO 5720 --- [restartedMain] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2020-04-28 10:46:00.218  INFO 5720 --- [restartedMain] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-04-28 10:46:00.382  INFO 5720 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-28 10:46:01.083  INFO 5720 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-28 10:46:01.118  INFO 5720 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-28 10:46:01.641  INFO 5720 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-28 10:46:01.671  WARN 5720 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-28 10:46:01.702  INFO 5720 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-04-28 10:46:01.959  INFO 5720 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2020-04-28 10:46:02.098  INFO 5720 --- [restartedMain] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 17 endpoint(s) beneath base path '/actuator'
+2020-04-28 10:46:02.184  INFO 5720 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8085 (http) with context path ''
+2020-04-28 10:46:02.186  INFO 5720 --- [restartedMain] c.j.m.MyspringbootApplication            : Started MyspringbootApplication in 5.683 seconds (JVM running for 6.858)
+2020-04-28 10:46:02.195 DEBUG 5720 --- [restartedMain] c.j.m.r.MyRunner                         : >> Hello Bean : 테스트환경 에서 사용되는 hello Bean
+2020-04-28 10:46:02.195 DEBUG 5720 --- [restartedMain] c.j.m.r.MyRunner                         : >> Property Name 스프링
+2020-04-28 10:46:02.195 DEBUG 5720 --- [restartedMain] c.j.m.r.MyRunner                         : >> Property Age 41
+2020-04-28 10:46:02.195 DEBUG 5720 --- [restartedMain] c.j.m.r.MyRunner                         : >> PropertyClass fullName 스프링 For Test
+2020-04-28 10:46:02.195  INFO 5720 --- [restartedMain] c.j.m.r.MyRunner                         : SourceArgs [spring.output.ansi.enabled, bar]
+2020-04-28 10:46:02.195  INFO 5720 --- [restartedMain] c.j.m.r.MyRunner                         : Program Arguments true
+2020-04-28 10:46:02.195  INFO 5720 --- [restartedMain] c.j.m.r.MyRunner                         : VM Arguments false
+2020-04-28 10:46:02.962  INFO 5720 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as f8f3717bf705
+2020-04-28 10:46:03.056  INFO 5720 --- [http-nio-8085-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-28 10:46:03.056  INFO 5720 --- [http-nio-8085-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-04-28 10:46:03.064  INFO 5720 --- [http-nio-8085-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 8 ms
+2020-04-28 14:11:38.838  INFO 5720 --- [RMI TCP Connection(212)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-04-28 14:11:38.923  INFO 5720 --- [RMI TCP Connection(212)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2020-04-28 14:11:38.924  INFO 5720 --- [RMI TCP Connection(212)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-28 14:11:38.933  INFO 5720 --- [RMI TCP Connection(212)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-28 14:11:38.996  INFO 5720 --- [RMI TCP Connection(212)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2020-04-28 14:11:39.008  INFO 5720 --- [RMI TCP Connection(212)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
